@@ -1,20 +1,30 @@
-# 9paimusic
+# my-project
 
-我准备学习一下sourcetree的使用
+> A Vue.js project
 
-1. 链接远端仓库，没问题。注意配置公钥
+## Build Setup
 
-2. 提交代码
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
-3. 我就拿来改改
+# build for production with minification
+npm run build
 
+# build for production and view the bundle analyzer report
+npm run build --report
 
-4. 并且已经完成项目
+# run unit tests
+npm run unit
 
+# run e2e tests
+npm run e2e
 
+# run all tests
+npm test
+```
 
-
-
-完成
-
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
