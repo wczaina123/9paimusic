@@ -1,0 +1,317 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*弹窗*/
+
+.ivu-modal-header {
+    padding: 0;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+}
+
+.upload_photo {
+    width: 70%;
+    height: 150px;
+    background: #eee;
+}
+
+.upload_photo p {
+    color: #7D93B2;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*表格的样式*/
+
+.table_style div {
+    margin-bottom: 10px;
+    vertical-align: top;
+    /*line-height:50px;*/
+}
+
+/*.table_style div span {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size:14px;
+}*/
+
+.table_style .table_span {
+    width: 100px;
+    /*height: 30px;
+      line-height: 30px;*/
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+
+/*以上*/
+
+
+/*下面的框框 比如轮播图 为你定制 限时优惠*/
+
+.bg {
+    color: #363f4c !important;
+    font-weight: 600 !important;
+}
+
+
+/*input的宽度*/
+
+.ivu-select,
+.ivu-select-single {
+    width: 200px !important;
+}
+
+.content_model {
+    padding: 0;
+    margin: 0;
+    padding: 40px;
+    margin-top: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content_min{
+    min-height:420px;
+}
+.content_bottom{
+    margin-bottom:30px !important;
+}
+.content_campus {
+    margin-top: 10px;
+}
+
+/*.content_model .home_text {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    background: #DCE6F0;
+    border: 1px solid #C5D1E2;
+    color: #363f4c;
+    font-size:18px;
+}*/
+.home_text {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background: #DCE6F0;
+    border: 1px solid #C5D1E2;
+    color: #363f4c;
+    font-size:18px !important;
+}
+.home_text_p a{
+        float:right;
+        padding-right:20px;
+        font-size:16px;
+        color:#287af2;
+    }
+
+.home_p {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 30px 0 !important;
+}
+.home_p_top{
+    margin:0 0 20px 0 !important;
+}
+.home_p .add_jia {
+    margin-left: 40px;
+    color: #287af2;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+/*可见范围不显示*/
+
+ .home_p .delete_padding {
+    margin-left: 0;
+}
+
+ .home_p .add_jia .fa {
+    margin-right: 5px;
+    vertical-align: middle;
+    color: #287af2;
+}
+
+ .home_p .add_jia a {
+    vertical-align: middle;
+    cursor: default;
+    font-style: normal;
+}
+
+
+/*列表拖拽排序*/
+
+ .home_p .add_list {
+    float: right;
+    color: #363f4c;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+ .home_p .add_list .fa {
+    margin-right: 5px;
+    vertical-align: middle;
+    color: #363f4c;
+}
+
+ .home_p .add_list a {
+    vertical-align: middle;
+    cursor: default;
+}
+
+.content_model .home_thead tr {
+    background: #f6f6f6;
+}
+
+.content_model .home_thead tr td a {
+    color: #287af2;
+}
+
+.content_model .home_tbody tr {
+    height: 60px;
+}
+
+
+/*这是table 下面的p标签*/
+
+.content_model .table_bottom_p {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px dotted #eee;
+    border-top: 0;
+    cursor: pointer;
+}
+
+.content_model .table_bottom_p span {
+    color: #287af2;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+/*这是推荐位  轮播图*/
+
+.home_banner {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: -10px;
+    margin-top: -15px;
+}
+
+.home_banner .banner_dl {
+    padding: 0;
+    width: 23%;
+    height: 150px;
+    margin: 0 2% 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.home_banner .banner_dl_time {
+    width: 31%;
+}
+
+.home_banner .banner_dl dt {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #eee;
+}
+
+.home_banner .banner_dl dt img {
+    width: 100%;
+    height: 100%;
+}
+
+.home_banner .banner_dl dd {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_banner .banner_dl dd a i {
+    font-size: 14px;
+    color: #287af2;
+}
+
+.home_banner .banner_dl dd a span {
+    font-size: 12px;
+    color: #287af2;
+}
+
+.home_banner .banner_dl dd a:hover {
+    text-decoration: none;
+}
+
+
+/*小箭头变身 在推荐位管理首页发现中用到*/
+
+.fa-sort-amount-desc {
+    -webkit-transform: scale(1, -1);
+}
+
+a {
+    text-decoration: none;
+    color: #596980;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/*商城管理 =>订单管理 =>已发货*/
+.list-group{
+    margin-top:30px;
+}
+.list-group:first-child{
+    margin-top:0;
+}
+.delivery_header{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    position:relative;    
+}
+.delivery_header div{
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+.delivery_top{
+   display:flex;
+   align-items:center;
+   text-align: left;
+   margin:10px 0;
+}
+.delivery_top span{
+    margin-right:90px;
+}
+.margin_left_question{
+    margin-left:50px;
+}

@@ -1,0 +1,67 @@
+.line_p{
+	width:100%;
+	margin-top:30px;
+	a{
+		color:#7D93B2;
+		&:nth-child(1){
+			color:#7D93B2;
+			padding-right:3px;
+		}
+		&:nth-child(2){
+			padding-left:3px;
+			color:#596980;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+/*input_style的样式*/
+	.input_div{
+		width:100%;
+		height:auto;
+		margin:10px 0;
+		&:first-child{
+			margin-top:0;
+		}
+		.table_a{
+			display:inline-block;
+			width:90px;
+			height:40px;
+			line-height:40px;
+			text-align:right;
+		}
+	}
+	.input_info_div{
+
+		.table_a{
+			float:left;
+		}
+		.input_div_content{
+			position:relative;
+			span{
+				float:left;
+				height:30px;
+				line-height:30px;
+				margin:0 5px;
+			}
+		}
+
+	}
+.btn_style{
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	background: #7D93B2;
+}
+
+.input_div .table_a{
+	display:inline-block;
+	width:105px;
+	text-align:right;
+	height:30px;
+	line-height:30px;
+}

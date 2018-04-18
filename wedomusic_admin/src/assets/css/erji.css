@@ -1,0 +1,29 @@
+.home_content {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -20px;
+    z-index: 20;
+    border-top: 0;
+}
+
+.home_content ul {
+    height: 60px;
+    line-height: 60px;
+}
+
+.home_content ul li {
+    float: left;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #596980;
+    font-size:14px;
+}
+
+.home_content ul li:first-child {
+    margin-left: 40px;
+}
+
+
+/*# sourceMappingURL=q.css.map */
