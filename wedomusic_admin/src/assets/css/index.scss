@@ -1,0 +1,465 @@
+     body {
+         background: #eee;
+     }
+     
+     * {
+         margin: 0;
+         padding: 0;
+         font-size: 14px;
+     }
+     
+     ol,
+     ul,
+     dl,
+     p {
+         margin: 0;
+     }
+     /*侧边栏 本色*/
+     
+     .sidebar .nav-link i,
+     .sidebar .navbar .dropdown-toggle i,
+     .navbar .sidebar .dropdown-toggle i {
+         color: #CCE1FF;
+     }
+     /*侧边栏 点击*/
+     
+     .sidebar .nav-link.active i,
+     .sidebar .navbar .active.dropdown-toggle i,
+     .navbar .sidebar .active.dropdown-toggle i {
+         color: #fff;
+     }
+     /*侧边栏的a 距离左边的距离 在PC端*/
+     
+     .sidebar .nav-link,
+     .sidebar .navbar .dropdown-toggle,
+     .navbar .sidebar .dropdown-toggle {
+         padding-left: 62px !important;
+     }
+     /*头部user_name距离右边的距离*/
+     
+     .app-header.navbar .navbar-nav {
+         margin-right: 25px;
+     }
+     /*在移动端的时候*/
+     
+     @media screen and (max-width: 992px) {
+         /*移动端下抽屉距离左边的距离*/
+         .app-header.navbar .navbar-toggler {
+             min-width: 90px;
+             outline: 0;
+         }
+         /*侧边栏的宽*/
+         .sidebar,
+         .nav,
+         .sidebar-nav {
+             width: 180px !important;
+         }
+         /*侧边栏的a 距离左边的距离 在移动端*/
+         .sidebar .nav-link,
+         .sidebar .navbar .dropdown-toggle,
+         .navbar .sidebar .dropdown-toggle {
+             padding-left: 35px !important;
+         }
+     }
+     /*头部导航栏*/
+     
+     .topbox {
+         width: 100%;
+         margin-top: 0; // 公共头部/这个不能这么写，bootstrap每个盒子都有默认的 你这样写了还得让别的盒子往上补
+         // padding-bottom: 30px; 
+     }
+     /*头部导航栏的问号*/
+     
+     .fa,
+     .fa-question-circle,
+     .fa-lg,
+     .mt-4 {
+         font-size: 21px;
+     }
+     
+     .mainbox {
+         margin-top: 10px;
+         background: white;
+         padding: 40px;
+         box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+     }
+     
+     .big_content {
+         margin-top: 30px;
+         box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+     } //添加点击状态的颜色
+     .add_class,
+     .bg{
+       color:#363F4C !important;
+       font-weight:bolder !important;
+     } 
+     // 盒子去除padding值
+     .content {
+         display: flex;
+         height: 80px;
+         padding: 0;
+         color: #596980;
+         font-size: 18px;
+         box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+         .contentlist {
+             color: #7D93B2;
+             font-size: 18px;
+             margin: 0 20px;
+             text-align: center;
+             line-height: 80px;
+             cursor: pointer;
+             &:first-child {
+                 margin-left: 40px;
+             }
+             span {
+                 font-size: 20px;
+             }
+         }
+     }
+     /*
+头部之下的导航栏
+*/
+     
+     .maintop-one {
+         margin: 0 0 30px 0;
+         display: flex;
+         justify-content: flex-start;
+         height: 60px;
+         background: #DEE5EE;
+         span {
+             padding: 0 20px 0 20px;
+             // width: 108px;
+             text-align: center;
+             line-height: 60px;
+             font-size: 18px;
+             cursor: pointer;
+             a {
+                 color: #287AF2;
+                 font-size: 16px;
+             }
+         }
+     }
+     
+     .maintop {
+         background: #DCE6F0;
+         span {
+             font-size: 18px;
+         }
+     }
+     
+     .minetoplink {
+         cursor: pointer;
+         span {
+             margin-left: 30px;
+         }
+     }
+     /*
+状态选择
+*/
+     
+     .mainstyle {
+         display: flex;
+         justify-content: space-between;
+         padding-bottom: 30px;
+         cursor: pointer;
+         .icon {
+             width: 400px;
+             padding-left: 250px; // flex-direction: column-reverse;
+         }
+         .mainstyleone {
+             span {
+                 margin-left: 30px;
+                 color: #287AF2;
+                 line-height: 30px;
+                 cursor: pointer;
+             }
+         }
+     }
+     /*
+表格
+*/
+     
+     .table-list {
+         .home_thead {
+             tr {
+                 height: 40px;
+             }
+         }
+         tr {
+             th {
+                 height: 40px;
+                 font-weight: 600;
+                 border: 1px solid #C5D1E2;
+             }
+         }
+         td {
+             border: 1px solid #C5D1E2;
+             img {
+                 width: 40px;
+                 height: 40px;
+             }
+         }
+         .acolor {
+             color: #287af2;
+         }
+         tbody {
+             tr {
+                 height: 60px;
+             }
+         }
+     }
+     
+     .table_bottom_p {
+         // 新增一行的样式样式
+         width: 100%;
+         height: 60px;
+         line-height: 60px;
+         text-align: center;
+         border: 1px dashed #C5D1E2;
+         .fa-plus-circle {
+             color: #7d93b2;
+             font-size: 20px;
+         }
+         border-top: 0;
+         cursor: pointer;
+         span {
+             color: #287af2;
+             vertical-align: middle;
+             font-size: 14px;
+             margin-left: 5px;
+         }
+     }
+     
+     .changestyle {
+         height: 60px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         a {
+             color: #287AF2;
+         }
+     }
+     /*
+    订单表格
+    */
+     /*
+    增加样式
+    */
+     
+     #myboxstyle {
+         margin: 1rem auto;
+         padding: 0 0 0 0;
+         width: 40%;
+         background: white;
+     }
+     .addmain {
+         padding: 20px 0;
+         border-bottom: 1px solid #C5D1E2;
+         display: flex;
+         justify-content: space-around;
+         .main_left {
+             width: 50%;
+             .main_link_style {
+                 padding-top: 15px;
+                 padding-bottom: 10px;
+             }
+             .main_link_main {
+                 display: flex;
+             }
+         }
+         .main_right {
+             width: 50%;
+         }
+         .live_img_box {
+             margin-top: 15px;
+             width: 300px;
+             height: 200px;
+             border: 2px dashed #C5D1E2;
+             position: relative;
+             .live_img_main {
+                 cursor: pointer;
+                 span {
+                     position: absolute;
+                     top: 82px;
+                     left: 133px;
+                     font-size: 30px;
+                 }
+                 input {
+                     position: absolute;
+                     left: 0;
+                     top: 82px;
+                     opacity: 0;
+                     height: 40px;
+                     cursor: pointer;
+                 }
+             }
+         }
+     }
+     /*
+    系统设置
+    */
+     .setting_money {
+         font-size: 14px;
+         margin: 20px 0;
+     }
+     
+     .setting_money_btn {
+         padding: 0;
+         width: 50%;
+         margin: 0 auto;
+         span {
+             padding: 0;
+             margin: 0;
+         }
+     }
+     /*
+    弹框样式
+    */
+     
+     .app {
+         .tit {
+             text-align: center;
+             font-size: 16px;
+         }
+         .btns {
+             display: flex;
+             justify-content: center;
+         }
+         .btns .btn {
+             width: 100px;
+             height: 30px;
+             font-size: 14px;
+             border: none;
+             border-radius: 5px;
+         }
+         .btns .btn1 {
+             background: #7D93B2;
+             color: white;
+         }
+         .btns .btn2 {
+             background: #F0B46E;
+             color: white;
+         }
+     }
+     /** iPhone **/
+     
+     @media only screen and (min-width: 320px) and (max-width: 767px) {
+         /** 头部导航 **/
+         .topbox {
+             width: 100%;
+             margin: 0 0 0 0;
+             padding-bottom: 30px;
+             .contentlist {
+                 margin: 0 0 0 0;
+                 padding: 0;
+                 width: 100px;
+                 &:first-child {
+                     margin-left: 0;
+                 }
+                 span {
+                     display: block;
+                     width: 62px;
+                     height: 80px;
+                     padding: 0 10px;
+                     overflow: hidden;
+                     font-size: 20px;
+                 }
+             }
+         }
+         /** 筛选 **/
+         .mainstyle {
+             display: flex;
+             overflow: scroll;
+             span {
+                 color: #287AF2;
+                 margin: 0;
+             }
+         }
+         .minetoplink {
+             cursor: pointer;
+             span {
+                 margin: 10px;
+                 cursor: pointer;
+                 i {
+                     color: #287AF2;
+                 }
+             }
+         }
+         /** 表格 **/
+         .tablebox {
+             width: 100%;
+             overflow: scroll;
+         }
+         .table-list {
+             width: 700px;
+             tr {
+                 th {
+                     &:first-child {
+                         width: 20%;
+                     }
+                 }
+             }
+             td {
+                 border: 1px solid #C5D1E2;
+                 img {
+                     width: 40px;
+                     height: 40px;
+                 }
+             }
+             .acolor {
+                 color: #287af2;
+             }
+         }
+     }
+     /*公共样式*/
+     
+     .a_color {
+         color: #287af2;
+         font-size: 14px;
+     }
+     /*所有的P标签  左边选择框 中间新增 右边 拖拽排序*/
+     /*  .home_p {
+         width: 100%;
+         margin-top: 15px;
+         margin-bottom: 25px;
+         .add_jia {
+             color: #287af2;
+             font-size: 14px;
+             vertical-align: middle;
+             cursor: pointer;
+             .fa {
+                 margin-right: 5px;
+                 vertical-align: middle;
+                 color: #287af2;
+             }
+             a {
+                 vertical-align: middle;
+                 cursor: default;
+                 font-style: normal;
+             }
+         }
+         .add_list {
+             float: right;
+             vertical-align: middle;
+             cursor: pointer;
+             .fa {
+                 width: 8px;
+                 height: 12px;
+                 font-size: 16px;
+                 margin-right: 5px;
+                 vertical-align: middle;
+                 color: #7d93b2;
+             }
+             a {
+                 vertical-align: middle;
+                 cursor: default;
+                 font-size: 14px;
+                 color: #7d93b2;
+             }
+         }
+     }*/
+     /*table 列表感叹号的颜色*/
+     
+     .content_model .home_p .add_list .fa {
+         color: #7d93b2 !important;
+     }

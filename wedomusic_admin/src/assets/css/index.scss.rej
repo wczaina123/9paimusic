@@ -1,0 +1,9 @@
+diff a/admin/src/assets/css/index.scss b/admin/src/assets/css/index.scss	(rejected hunks)
+@@ -131,6 +131,7 @@
+              text-align: center;
+              line-height: 60px;
+              font-size: 18px;
++             color: #363f4c;
+              cursor: pointer;
+              a {
+                  color: #287AF2;
